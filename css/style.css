@@ -208,6 +208,14 @@ body{
     color: var(--grayish-blue);
     line-height: 1.5;
 }
+
+.footer{
+    background-color: var(--dark-blue);
+    text-align: center;
+}
+.footer__container{
+    padding: 70px 0;
+}
 .cta--nav{
     display: none;
 }
