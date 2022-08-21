@@ -153,9 +153,61 @@ body{
 
 
 
-
-
-
+.articles{
+    background-color: var(--very-light-gray);
+}
+.articles__container{
+    padding: 70px 0;
+    text-align: center;
+}
+.articles__content{
+    margin-top: 2em;
+    display: grid;
+    gap: 2em;
+}
+.articles__article{
+    --img-bg: url('../images/image-currency.jpg');
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 7px;
+    box-shadow: 0 0 3px rgb(0, 0, 0, .2);
+    overflow: hidden;
+    text-align: left;
+} 
+.articles__article:nth-of-type(2){
+    --img-bg: url('../images/image-restaurant.jpg');
+}
+.articles__article:nth-of-type(3){
+    --img-bg: url('../images/image-plane.jpg');
+}
+.articles__article:nth-of-type(4){
+    --img-bg: url('../images/image-confetti.jpg');
+}
+.articles__img{
+    width: 100%;
+    height: 250px;
+    background-image: var(--img-bg);
+    background-size: cover;
+    background-position: center;
+}
+.articles__text{
+    padding: 1.5em 1em 2.5em;
+}
+.articles__author{
+    color: var(--grayish-blue);
+    font-size: .8rem;
+}
+.articles__title{
+    color: var(--dark-blue);
+    font-weight: 400;
+    margin: .7rem 0;
+}
+.articles__paragraph{
+    color: var(--grayish-blue);
+    line-height: 1.5;
+}
 .cta--nav{
     display: none;
 }
