@@ -216,6 +216,47 @@ body{
 .footer__container{
     padding: 70px 0;
 }
+.footer__logo{
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    margin-bottom: 1.5em;
+} 
+.footer__img{
+    display: block;
+}
+.footer__socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.footer__media{
+    text-decoration: none;
+}
+.footer__nav{
+    margin-top: 1.5em;
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+}
+.footer__link{
+    text-decoration: none;
+    color: var(--white);
+}
+.footer--hover:hover{
+    text-decoration: underline;
+    color: var(--lime-green);
+}
+.footer__icon{
+    display: block; 
+}
+.cta--footer{
+    margin: 1.5em 0;
+}
+.footer__copy{
+    color: var(--grayish-blue);
+}
 .cta--nav{
     display: none;
 }
