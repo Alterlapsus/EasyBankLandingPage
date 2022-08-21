@@ -17,3 +17,102 @@
 body{
     font-family: 'Public Sans', sans-serif;
 }
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.nav{
+    background-color: var(--white);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__img{
+    display: block;
+}
+.nav__links{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+    background-color: var(--white);
+    padding: 3em 1em;
+    box-shadow: 0 0 3px rgb(0, 0, 0, .7);
+    z-index: 1000;
+    border-radius: 6px;
+    display: grid;
+    justify-items: center;
+    gap: 2em;
+    transition: transform .3s;
+    transform: translateY(-150%);
+}
+.nav__links:target{
+    transform: translateY(0);
+}
+.nav__link{
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
+.hero__main{
+    max-width: 1200px;
+}
+.hero__background{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 350px;
+    position: relative;
+}
+.hero__background::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url('../images/image-mockups.png');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.hero__texts{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.hero__title{
+    margin-top: 1em;
+    font-size: 2.3em;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+.hero__paragraph{
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 1em 0 1.5em;
+    color: var(--grayish-blue);
+}
+.cta{
+    display: inline-block;
+    padding: 1em 2em;
+    background-image: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2em;
+}
+
+.cta--nav{
+    display: none;
+}
