@@ -113,6 +113,49 @@ body{
     border-radius: 2em;
 }
 
+.easybank{
+    background-color: var(--light-grayish-blue);
+}
+.easybank__container{
+    text-align: center;
+    padding: 70px 0;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+.easybank__paragraph{
+    line-height: 1.5;
+    margin-bottom: 4em;
+
+}
+.easybank__services{
+    display: grid;
+    gap: 3em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.easybank__icon{
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+}
+.easybank__title{
+    margin: 1em 0;
+    color: var(--dark-blue);
+    font-weight: 400;
+}
+.easybank__copy{
+    list-style: 1.5;
+    color: var(--grayish-blue);
+}
+
+
+
+
+
+
 .cta--nav{
     display: none;
 }
