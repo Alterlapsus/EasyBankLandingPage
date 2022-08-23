@@ -15,7 +15,7 @@ Tecnologías utilizadas:
 Descargar de archivos: 
 
 - git 
-- git clone https://github.com/Alterlapsus/DibujandoConCSS.git
+- git clone https://github.com/Alterlapsus/EasyBankLandingPage.git
 
 ---
 
