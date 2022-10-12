@@ -1,4 +1,4 @@
-# Frontend Mentor 
+# Frontend Mentor Challenge
 
 - Easybank Landing Page
 
